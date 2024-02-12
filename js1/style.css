@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.sound {
+  display: none;
+}
+
+.key {
+  border: 2px solid black;
+  padding: 10px;
+  transition: all 0.07s;
+}
+
+.playing {
+  border: 4px solid blue;
+}
